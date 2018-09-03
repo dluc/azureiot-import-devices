@@ -1,3 +1,19 @@
+/* Project setup:
+
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <LangVersion>latest</LangVersion>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Azure.Devices" Version="1.17.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+        <PackageReference Include="WindowsAzure.Storage" Version="9.3.1" />
+    </ItemGroup>
+</Project>
+*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +25,7 @@ using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Newtonsoft.Json;
 
-namespace _Console
+namespace Sample
 {
     class Program
     {
