@@ -43,6 +43,7 @@ namespace _Console
                 Console.WriteLine("Creating job 2...");
                 jobId2 = await CreateDevicesAsync(new[] { "test3", "test4" });
 
+                Console.WriteLine("Pausing 2 seconds...");
                 Thread.Sleep(2000);
             }
         }
