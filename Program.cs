@@ -29,10 +29,10 @@ namespace Sample
 {
     class Program
     {
-        private const string IOT_HUB_CONN_STRING = "HostName=_____.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=_____";
-        private const string STORAGE_ACCOUNT_CONN_STRING = "DefaultEndpointsProtocol=https;AccountName=_____;AccountKey=_____;EndpointSuffix=core.windows.net";
+        const string IOT_HUB_CONN_STRING = "HostName=_____.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=_____";
+        const string STORAGE_ACCOUNT_CONN_STRING = "DefaultEndpointsProtocol=https;AccountName=_____;AccountKey=_____;EndpointSuffix=core.windows.net";
 
-        private static RegistryManager registry;
+        static RegistryManager registry;
 
         static void Main(string[] args)
         {
